@@ -1,8 +1,8 @@
 ## PROJECT  NAME 
- - A MINUTE 2 PITCH 
+ - 60 SECONDS PITCH 
 
 ## AUTHOR 
- - BRIAN MUTUMA
+ - NAJMA AMIN
 
  ## DESCRIPTION 
  - This is a Python-Flask Application that allows users to create a pitch in a minute. You only have 60 seconds to impress someone, the minute can make or break you. Users will create accounts, login, and create a pitch. They'll submit their one minute pitches and other users will vote on them and leave comments to give feedback on them.
@@ -83,8 +83,8 @@ To work with ONE MINUTE PITCH App you need to have some few prerequisites.
 
 ## License.
 [The MIT license](license.md)
-Copyright (c) Brian-M-Code @2019
+Copyright (c) Najma-Amin @2019
 
 
 #### For any inquiries contact me at..
-- mutuma.brian@yahoo.com 
+- najmaamin10@gmail.com
