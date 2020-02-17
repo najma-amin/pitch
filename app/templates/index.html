@@ -1,47 +1,34 @@
+{% extends 'base.html'%}
+{% from 'pitch_display_macro.html' import display_pitches%}
+{% block content%}
+{% block styles %}
+{{super()}}
+<link rel="stylesheet" href="{{url_for('static',filename='css/2main.css')}}">
+<link rel="stylesheet" href="{{url_for('static',filename='css/styles.css')}}">
 
-{% extends 'base.html' %}
-{% import 'macros.html' as macro %}
-<!-- Styles block -->
-
-{%block styles%}
-    {{ super() }}
-    <link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Upright" rel="stylesheet">
-    <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
-{%endblock%}
+{% endblock %}
 <!-- Content block -->
-{%block content%}
-
-    <h1 style="text-align:center; background-color:black; color:green;padding:80px;">MY PITCH PROJECT</h1>
-
-<div class="container" style="padding-bottom: 20px;">
-    <a href="{{url_for('main.new_pitch')}}" class="btn btn-success">Create pitch</a>
+<div class="container">
+    <h1 style="text-align:center; background-image:url(); color:white;padding:80px;">PITCH</h1>
+    <p style="color: white; text-align:center;" style="font-size:20px">Karibu A Minute 2 Pitch<p><br>
+    <p style="font-size:30px; color:white; text-align:center">If you only have a minute to impress someone. The minute can make or break you. Pitch something that would make it count?</p>
 </div>
+<br>
+<br>
 
-<div class="container" style= "font-family: 'Cormorant Upright', serif;">
+<div class="container" style="font-family: 'Cormorant Upright', serif;">
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-6">
             <div class="well well-lg">
-                <h3>Interview Pitches</h3>
-                <p>Want to have an interview in fews seconds about you.</p>
-                <a href="{{url_for('main.interview_pitches')}}" class="btn btn-primary -center">View</a>
+                <a class="btn btn-outline-secondary text-white" href="/new_post" style="font-size:30px">New Pitch</a>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="well well-lg">
-                <h3>Product Pitches</h3>
-                <p>Want to talk about your products, this is the right place to do it .</p>
-                <a href="{{url_for('main.product_pitches')}}" class="btn btn-primary -center">View</a>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="well well-lg">
-                <h3>Promotion Pitches</h3>
-                <p>Want to promote anything, this is the right place just in a few seconds.</p>
-                <a href="{{url_for('main.promotion_pitches')}}" class="btn btn-primary -center">View</a>
-            </div>
+
+        <div class="col-md-6">
+        <!-- <div class="well well-lg"> -->
+            <a class="btn btn-outline-secondary text-white" href="/posts" style="font-size:30px">View Pitches</a>
         </div>
     </div>
+
 </div>
-{%endblock%}
+{% endblock %}

@@ -1,0 +1,120 @@
+#jumbotron {
+  background-color: inherit;
+  
+}
+body{
+margin:0;
+padding:0;
+}
+.overlay{
+  color: black;
+}
+#navbar{
+  background-color: black;
+  }
+  
+
+#centered-card{
+  margin:0;                                         
+  padding-top:5px;
+  color: black
+}
+
+
+.login-text{
+    font-family: 'Quicksand', sans-serif;
+}
+#login{
+font-weight:bold;
+}
+#logo{
+font-family: 'Special Elite', cursive;
+color:#ed5107;
+font-size:20px;
+}
+
+#bri-signup{
+margin-top:20px;
+width: 100%;
+}
+
+#brian {
+  align-self: center;
+  background: lightgreen;
+  cursor: ew-resize;
+  border-radius: 15px;
+}
+
+.division {
+  padding-top: 300px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#hellobutton {
+margin-top:20px;
+    border: 0;
+    background: greenyellow;
+    width: 80px;
+    height: 40px;
+    box-shadow: #989898 0 0 20px;
+    border-radius: 5px;
+    color: black;
+    font-size: 18px;
+    justify-content: right;
+}
+
+#hellobutton:hover {
+    background: rgb(86, 139, 0);
+}
+
+
+/*Home styles*/
+.container {
+  max-width: 960px;
+}
+
+.site-header {
+  background-color: rgba(194, 14, 89, 0.548);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #999;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: lightpink;
+  text-decoration: none;
+}
+
+#img{
+background-image:url('https://pbs.twimg.com/media/DjSwSfoU8AE0fSB.jpg'); 
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+z-index:1;
+/* padding-top:70px;
+padding-bottom:130px; */
+}
+
+#buttons{
+display:flex;
+}
+.flex-stuff{
+display:flex;
+}
+
+.card{
+  background-color: lightpink;
+  color: white;
+}
+#log{
+  padding-top: 40px;
+}
+#sig{
+  padding-top: 0px;
+}

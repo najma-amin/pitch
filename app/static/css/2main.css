@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-image: url("https://pbs.twimg.com/media/DjSwSfoU8AE0fSB.jpg");
+}
+
+
+#particles-js {
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#navbar{
+background-color: black;
+}
